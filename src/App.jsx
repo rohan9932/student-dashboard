@@ -1,8 +1,11 @@
+import Navbar from "./components/Navbar.jsx";
+
 export default function App() {
   return (
     <>
-      <h1>Hello World</h1>
-      <p>This is just for testing the app.</p>
+      <div className="h-dvh bg-[#FAF6F0]">
+        <Navbar />
+      </div>
     </>
   )
 }
