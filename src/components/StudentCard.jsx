@@ -1,6 +1,9 @@
-import { useState } from 'react';
-
 export default function StudentCard({ id, name, department, cgpa, isActive, onDelete }) {
+
+  // Intentionally trigger an error for Part 10 testing if needed
+  if (name === "CRASH_TEST") {
+    throw new Error("Intentional crash!");
+  }
 
   return (
     <div className="bg-white border border-gray-200 rounded-2xl p-5 shadow-sm flex justify-between items-center">
