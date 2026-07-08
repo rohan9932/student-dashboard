@@ -1,13 +1,9 @@
-import Navbar from "./components/Navbar.jsx";
-import StudentForm from "./components/StudentForm.jsx";
+import Home from "./pages/Home.jsx";
 
 export default function App() {
   return (
     <>
-      <div className="h-dvh bg-[#FAF6F0]">
-        <Navbar />
-        <StudentForm />
-      </div>
+      <Home />
     </>
   )
 }
